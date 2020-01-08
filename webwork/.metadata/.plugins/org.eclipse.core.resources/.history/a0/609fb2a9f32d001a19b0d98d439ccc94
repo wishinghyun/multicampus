@@ -1,0 +1,8 @@
+@charset "EUC-KR";
+body{
+	background-color: #a7cece;
+			padding-top: 20px;
+			padding-bottom: 30px;
+			padding-left: 200px;
+			margin: 30px;
+}

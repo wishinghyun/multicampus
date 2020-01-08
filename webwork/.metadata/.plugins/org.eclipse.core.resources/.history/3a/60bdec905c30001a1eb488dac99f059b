@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .container {
+    padding: 80px 120px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  </style>
+</head>
+<body>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="../images/r1.jpg" alt="New York" width="1200" height="700">
+      </div>
+
+      <div class="item">
+        <img src="../images/r2.jpg" alt="Chicago" width="1200" height="700">
+      </div>    
+      <div class="item">
+        <img src="../images/r3.jpg" alt="Los Angeles" width="1200" height="700">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="container text-center">
+  <h2>반지의 제왕</h2>
+  <div class="section_group section_group_frst">
+		
+			
+			
+				<div class="obj_section">
+					<div class="video">
+						
+							<div class="story_area">
+								<div class="title_area">
+									<h4 class="h_story"><strong class="blind">줄거리</strong></h4>
+								</div>
+								
+									<h5 class="h_tx_story">21세기 가장 위대한 판타지 걸작의 귀환!</h5>
+								
+								<p class="con_tx">모든 힘을 지배할 악의 군주 ‘사우론’의 절대반지가 깨어나고<br>&nbsp;악의 세력이 세상을 지배해가며 중간계는 대혼란에 처한다. <br>&nbsp;<br>&nbsp;호빗 ‘프로도’와 그의 친구들, 엘프 ‘레골라스’, 인간 전사 ‘아라곤’과 ‘보로미르’ <br>&nbsp;드워프 ‘김리’ 그리고 마법사 ‘간달프’로 구성된 반지원정대는 <br>&nbsp;평화를 지키기 위해 절대반지를 파괴할 유일한 방법인 <br>&nbsp;반지가 만들어진 모르도르를 향해 목숨을 건 여정을 떠난다.<br>&nbsp;<br>&nbsp;한편, 점점 세력을 넓혀온 사우론과의 피할 수 없는 전쟁을 앞둔<br>&nbsp;반지원정대는 드디어 거대한 최후의 전쟁을 시작하는데...</p>
+								
+								
+							</div>
+						
+						
+					</div>
+				</div>
+			
+			
+			
+			
+			
+				<div class="obj_section">
+					<div class="people">
+							<div class="title_area">
+								<h4 class="h_people"><strong class="blind">배우/제작진</strong></h4>
+								
+									<a href="/movie/bi/mi/detail.nhn?code=31794#tab" class="btn_more">더보기<span class="ico_more"></span></a>
+								
+							</div>
+							<ul>
+							
+							<li>
+								
+								
+									
+										
+										
+									
+									
+									
+								
+								
+									
+										<a href="/movie/bi/pi/basic.nhn?code=1244" title="피터 잭슨" class="thumb_people">
+											<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F29%2F20141210143439671.jpg&amp;type=u111_139&amp;quality=95" width="111" height="139" alt="피터 잭슨" onerror="src='https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png'">
+										</a><!-- N=a:mca.img -->
+										<a href="/movie/bi/pi/basic.nhn?code=1244" title="피터 잭슨" class="tx_people">피터 잭슨</a><!-- N=a:mca.name -->
+									
+									
+								
+								<dl class="staff">
+								
+								
+									
+									
+									
+								
+								<dt class="staff_dir">감독</dt>
+								
+								</dl>
+							</li>
+							
+							<li>
+								
+								
+									
+										
+										
+									
+									
+									
+								
+								
+									
+										<a href="/movie/bi/pi/basic.nhn?code=2495" title="일라이저 우드" class="thumb_people">
+											<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F51%2F201702011747476811.jpg&amp;type=u111_139&amp;quality=95" width="111" height="139" alt="일라이저 우드" onerror="src='https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png'">
+										</a><!-- N=a:mca.img -->
+										<a href="/movie/bi/pi/basic.nhn?code=2495" title="일라이저 우드" class="tx_people">일라이저 우드</a><!-- N=a:mca.name -->
+									
+									
+								
+								<dl class="staff">
+								
+								
+									
+									
+									
+								
+								<dt class="staff_main">주연</dt>
+								
+									<dd>프로도 역</dd>
+								
+								</dl>
+							</li>
+							
+							<li>
+								
+								
+									
+										
+										
+									
+									
+									
+								
+								
+									
+										<a href="/movie/bi/pi/basic.nhn?code=2135" title="이안 맥켈런" class="thumb_people">
+											<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F54%2F20191017164734931.jpg&amp;type=u111_139&amp;quality=95" width="111" height="139" alt="이안 맥켈런" onerror="src='https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png'">
+										</a><!-- N=a:mca.img -->
+										<a href="/movie/bi/pi/basic.nhn?code=2135" title="이안 맥켈런" class="tx_people">이안 맥켈런</a><!-- N=a:mca.name -->
+									
+									
+								
+								<dl class="staff">
+								
+								
+									
+									
+									
+								
+								<dt class="staff_main">주연</dt>
+								
+									<dd>간달프 역</dd>
+								
+								</dl>
+							</li>
+							
+							<li>
+								
+								
+									
+										
+										
+									
+									
+									
+								
+								
+									
+										<a href="/movie/bi/pi/basic.nhn?code=944" title="리브 타일러" class="thumb_people">
+											<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F67%2F201406131238312681.jpg&amp;type=u111_139&amp;quality=95" width="111" height="139" alt="리브 타일러" onerror="src='https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png'">
+										</a><!-- N=a:mca.img -->
+										<a href="/movie/bi/pi/basic.nhn?code=944" title="리브 타일러" class="tx_people">리브 타일러</a><!-- N=a:mca.name -->
+									
+									
+								
+								<dl class="staff">
+								
+								
+									
+									
+									
+								
+								<dt class="staff_main">주연</dt>
+								
+									<dd>아르웬 역</dd>
+								
+								</dl>
+							</li>
+							
+							<li>
+								
+								
+									
+										
+										
+									
+									
+									
+								
+								
+									
+										<a href="/movie/bi/pi/basic.nhn?code=2383" title="비고 모텐슨" class="thumb_people">
+											<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F53%2F201702021719219441.jpg&amp;type=u111_139&amp;quality=95" width="111" height="139" alt="비고 모텐슨" onerror="src='https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png'">
+										</a><!-- N=a:mca.img -->
+										<a href="/movie/bi/pi/basic.nhn?code=2383" title="비고 모텐슨" class="tx_people">비고 모텐슨</a><!-- N=a:mca.name -->
+									
+									
+								
+								<dl class="staff">
+								
+								
+									
+									
+									
+								
+								<dt class="staff_main">주연</dt>
+								
+									<dd>아라곤 역</dd>
+								
+								</dl>
+							</li>
+							
+							<li>
+								
+								
+									
+										
+										
+									
+									
+									
+								
+								
+									
+										<a href="/movie/bi/pi/basic.nhn?code=2319" title="숀 애스틴" class="thumb_people">
+											<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fssl.pstatic.net%2Fsstatic%2Fpeople%2F150%2F201804251614317321.jpg&amp;type=u111_139&amp;quality=95" width="111" height="139" alt="숀 애스틴" onerror="src='https://ssl.pstatic.net/static/movie/2012/06/dft_img111x139.png'">
+										</a><!-- N=a:mca.img -->
+										<a href="/movie/bi/pi/basic.nhn?code=2319" title="숀 애스틴" class="tx_people">숀 애스틴</a><!-- N=a:mca.name -->
+									
+									
+								
+								<dl class="staff">
+								
+								
+									
+									
+									
+								
+								<dt class="staff_main">주연</dt>
+								
+									<dd>샘 역</dd>
+								
+								</dl>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			
+			
+          	
+			
+			
+				<div class="obj_section">
+					<div class="photo" id="_MainPhotoArea">
+						<div class="title_area">
+							<h4 class="h_photo"><strong class="blind">포토</strong></h4>
+							<span class="pg_cnt"><strong id="mainPhotoViewIndex">1</strong> / <em>48</em>건</span>
+							
+								<a href="./photoView.nhn?code=31794&amp;imageNid=3281591#tab" class="btn_more _MoreBtn">더보기<span class="ico_more"></span></a>
+							
+						</div>
+						<div class="viewer">
+							<div class="viewer_img">
+								<img class="_Img" src="https://movie-phinf.pstatic.net/20111221_108/1324474404955p85dI_JPEG/movie_image.jpg?type=m427_320_2" alt="STILLCUT">
+							</div>
+							<a href="#" class="_PrevBtn _NoOutline pic_prev none" title="이전사진"><em>이전사진</em></a><!-- N=a:mph.vprev -->
+							<a href="#" class="_NextBtn _NoOutline pic_next " title="다음사진"><em>다음사진</em></a><!-- N=a:mph.vnext -->
+						</div>
+					</div>
+				</div>
+			
+			
+			
+			
+			
+				<div class="obj_section">
+					<div class="video">
+						<div class="title_area">
+							<h4 class="h_video"><strong class="blind">동영상</strong></h4>
+							<span class="pg_cnt"><em>5</em>건</span>
+							
+								<a href="/movie/bi/mi/media.nhn?code=31794#tab" class="btn_more">더보기<span class="ico_more"></span></a>
+							
+						</div>
+						<ul class="video_thumb">
+							
+								
+								<li>
+									<a href="/movie/bi/mi/mediaView.nhn?code=31794&amp;mid=3029#tab" title="반지의 제왕" class="video_obj">
+										<span class="mask"></span>
+										<img src="https://ssl.pstatic.net/imgmovie/multimedia/MOVIECLIP/TRAILER/3029.gif" width="164" height="114" alt="반지의 제왕" onerror="this.src='https://ssl.pstatic.net/static/movie/2012/06/dft_img164x114.png'">
+									</a><!-- N=a:mvi.img,r:1,i:3029 -->
+									<p class="tx_video ico_hd"><a href="/movie/bi/mi/mediaView.nhn?code=31794&amp;mid=3029#tab" title="반지의 제왕"><span class="blind">HD</span>반지의 제왕</a><!-- N=a:mvi.title,r:1,i:3029 --></p>
+								</li>
+							
+								
+								<li>
+									<a href="/movie/bi/mi/mediaView.nhn?code=31794&amp;mid=3015#tab" title="반지의 제왕" class="video_obj">
+										<span class="mask"></span>
+										<img src="https://ssl.pstatic.net/imgmovie/multimedia/MOVIECLIP/TRAILER/3015.gif" width="164" height="114" alt="반지의 제왕" onerror="this.src='https://ssl.pstatic.net/static/movie/2012/06/dft_img164x114.png'">
+									</a><!-- N=a:mvi.img,r:2,i:3015 -->
+									<p class="tx_video ico_hd"><a href="/movie/bi/mi/mediaView.nhn?code=31794&amp;mid=3015#tab" title="반지의 제왕"><span class="blind">HD</span>반지의 제왕</a><!-- N=a:mvi.title,r:2,i:3015 --></p>
+								</li>
+							
+								
+								<li>
+									<a href="/movie/bi/mi/mediaView.nhn?code=31794&amp;mid=3012#tab" title="반지의 제왕" class="video_obj">
+										<span class="mask"></span>
+										<img src="https://ssl.pstatic.net/imgmovie/multimedia/MOVIECLIP/TRAILER/3012.gif" width="164" height="114" alt="반지의 제왕" onerror="this.src='https://ssl.pstatic.net/static/movie/2012/06/dft_img164x114.png'">
+									</a><!-- N=a:mvi.img,r:3,i:3012 -->
+									<p class="tx_video ico_hd"><a href="/movie/bi/mi/mediaView.nhn?code=31794&amp;mid=3012#tab" title="반지의 제왕"><span class="blind">HD</span>반지의 제왕</a><!-- N=a:mvi.title,r:3,i:3012 --></p>
+								</li>
+							
+								
+								<li>
+									<a href="/movie/bi/mi/mediaView.nhn?code=31794&amp;mid=749#tab" title="반지의 제왕" class="video_obj">
+										<span class="mask"></span>
+										<img src="https://ssl.pstatic.net/imgmovie/multimedia/MOVIECLIP/TRAILER/749.gif" width="164" height="114" alt="반지의 제왕" onerror="this.src='https://ssl.pstatic.net/static/movie/2012/06/dft_img164x114.png'">
+									</a><!-- N=a:mvi.img,r:4,i:749 -->
+									<p class="tx_video ico_hd"><a href="/movie/bi/mi/mediaView.nhn?code=31794&amp;mid=749#tab" title="반지의 제왕"><span class="blind">HD</span>반지의 제왕</a><!-- N=a:mvi.title,r:4,i:749 --></p>
+								</li>
+							
+						</ul>
+					</div>
+				</div>
+			
+			
+					
+			
+			<div class="obj_section">
+				<!-- 기대지수 노출 -->
+				<div class="score" style="display:none">
+				        <div class="title_area">
+							<h4 class="h_exp"><strong class="blind">기대지수</strong></h4>
+				        </div>
+				        <div class="exp_area">
+				                <div class="exp_box">
+				                        <button type="button" id="btn_interest_basic" class="btn_want">보고싶어요</button>
+				                        <div class="exp_info">
+				                                <h4 class="blind">기대지수 정보</h4>
+				                                <span class="exp_cnt" id="interest_cnt_basic"><em class="blind">보고싶어요</em>23</span>
+				                                <span class="exp_cnt" id="not_interest_cnt_basic"><em class="blind">글쎄요</em>10</span>
+				                                <div class="exp_bar">
+													
+														
+														
+															<span id="preference_graph_basic" style="width:69.6969696969697%"></span>
+														
+															
+				                                </div>
+				                        </div>
+				                        <button type="button" id="btn_notInterest_basic" class="btn_dnwant">글쎄요</button>
+				                </div>
+				        </div>
+				</div>				
+				<div class="score " style="display:block">
+					<div class="title_area">
+						<h4 class="h_score"><strong class="blind">평점</strong></h4>
+						
+							
+							
+								
+									<a href="./point.nhn?code=31794#tab" class="btn_more">더보기<span class="ico_more"></span></a>
+								
+							
+						
+					</div>
+
+					<div class="score_area">
+						<div class="netizen_score">
+							<!-- [D] a클릭시 class="on" 변경 -->
+							<a href="./point.nhn?code=31794#pointAfterTab" class="off"><strong class="h_netizen_score"><em>네티즌 · 관람객 평점</em></strong></a><!-- N=a:mra.atitle -->
+							<div class="sc_view">
+								<div class="star_score">
+									<span class="st_off"><span class="st_on" style="width:92.8%">평점 - 총 10점 중</span></span>
+									<em>9.28</em>
+								</div>
+								<span class="user_count">참여 <em>3,735</em>명</span>
+							</div>
+						</div>
+						<div class="special_score">
+							<a href="./point.nhn?code=31794#pointExpertTab" class="off"><strong class="h_special_score"><em>기자 · 평론가 평점</em></strong></a><!-- N=a:mra.ctitle -->
+							<div class="sc_view">
+								<div class="star_score">
+									<span class="st_off"><span class="st_on" style="width:0.0%">평점 - 총 10점 중</span></span>
+									<em>0.00</em>
+								</div>
+								<span class="user_count">참여 <em>0</em>명</span>
+							</div>
+						</div>
+						<div class="my_score">
+							
+								
+								
+									<span class="off"><strong class="h_my_score"><em>내 평점 등록하기</em></strong></span>
+									<div class="sc_view">
+										<p class="no_my_score">등록한 평점이 없습니다.<a href="./point.nhn?code=31794#pointAfterTab" class="btn_wrt"><em>등록하기</em></a><!-- N=a:mra.register --></p>
+									</div>
+								
+							
+						</div>
+					</div>
+					
+					
+						
+					    
+					    
+						
+							<div class="score_total">
+								<strong class="total"><span class="tit"><em class="blind">한줄평</em></span><span class="sp">|</span>총
+									<em>
+										
+											3,645	
+											
+										
+									</em>건
+								</strong>
+							</div>
+							<div class="score_result">
+								<ul>
+									
+									
+									
+
+									
+									
+										
+											
+											
+											<li>
+												<div class="star_score">
+													
+														<span class="st_off">
+															<span class="st_on" style="width:100.0%"></span>
+														</span>
+														<em>10</em>
+													
+												</div>
+												<div class="score_reple">
+													<p>
+														<!-- 스포일러 컨텐츠로 처리되는지 여부 -->
+														
+														
+														
+														
+															
+															
+																죽기 전에 이 영화를 봐서 정말 다행이다 
+															
+														
+														
+													</p>
+													<dl>
+														<dt>
+															<em>
+																<a href="#" onclick="javascript:showPointListByNid(7641720);return false;">
+																	<span>orangeㅡegg(rebo****)</span>
+																</a>
+															</em>
+															<em>2013.06.15 10:39</em>
+														</dt>
+														<dd>
+															
+																
+																
+																	<a href="#" onclick="javascript:common.report('false','rebo****', 'bECAHw05XhMOwqGPG+xKrPMYwCB5XN/OSO/QFYfd06k=', '죽기 전에 이 영화를 봐서 정말 다행이다 ', '7641720', 'point_after', true);return false;" class="go_report2"><em>신고</em></a><!-- N=a:mra.report -->
+																
+																	
+														</dd>
+													</dl>
+												</div>
+												<div class="btn_area">
+													<a class="_sympathyButton" href="#"><span class="ico_up"></span><span class="blind">공감</span><strong class="sympathy_7641720">1184</strong></a>
+													<a class="_notSympathyButton" href="#"><span class="ico_down"></span><span class="blind">비공감</span><strong class="notSympathy_7641720">50</strong></a>
+												</div>
+											</li>
+										
+											
+											
+											<li>
+												<div class="star_score">
+													
+														<span class="st_off">
+															<span class="st_on" style="width:100.0%"></span>
+														</span>
+														<em>10</em>
+													
+												</div>
+												<div class="score_reple">
+													<p>
+														<!-- 스포일러 컨텐츠로 처리되는지 여부 -->
+														
+														
+														
+														
+															
+															
+																톨킨이 쓴 책 중에는 '반지의 제왕'의 배경에 대해 다룬 것이 있다.이건 단순한 판타지가 아니다. 톨킨이 창조한 새로운 세계다.이런게 진정한 예술이 아닐까 
+															
+														
+														
+													</p>
+													<dl>
+														<dt>
+															<em>
+																<a href="#" onclick="javascript:showPointListByNid(7632202);return false;">
+																	<span>degree(211d****)</span>
+																</a>
+															</em>
+															<em>2013.06.13 01:35</em>
+														</dt>
+														<dd>
+															
+																
+																
+																	<a href="#" onclick="javascript:common.report('false','211d****', 'NJFaPR8opPhqtkyGvnLZVZt7lp0VSzjFZDTTlxDBmls=', '톨킨이 쓴 책 중에는 \'반지의 제왕\'의 배경에 대해 다룬 것이 있다.이건 단순한 판타지가 아니다. 톨킨이 창조한 새로운 세계다.이런게 진정한 예술이 아닐까 ', '7632202', 'point_after', true);return false;" class="go_report2"><em>신고</em></a><!-- N=a:mra.report -->
+																
+																	
+														</dd>
+													</dl>
+												</div>
+												<div class="btn_area">
+													<a class="_sympathyButton" href="#"><span class="ico_up"></span><span class="blind">공감</span><strong class="sympathy_7632202">865</strong></a>
+													<a class="_notSympathyButton" href="#"><span class="ico_down"></span><span class="blind">비공감</span><strong class="notSympathy_7632202">33</strong></a>
+												</div>
+											</li>
+										
+											
+											
+											<li>
+												<div class="star_score">
+													
+														<span class="st_off">
+															<span class="st_on" style="width:100.0%"></span>
+														</span>
+														<em>10</em>
+													
+												</div>
+												<div class="score_reple">
+													<p>
+														<!-- 스포일러 컨텐츠로 처리되는지 여부 -->
+														
+														
+														
+														
+															
+															
+																판타지영화는 반지의 제왕 전과 후로 나뉜다 
+															
+														
+														
+													</p>
+													<dl>
+														<dt>
+															<em>
+																<a href="#" onclick="javascript:showPointListByNid(8184095);return false;">
+																	<span>로썰(bsk9****)</span>
+																</a>
+															</em>
+															<em>2013.12.02 00:21</em>
+														</dt>
+														<dd>
+															
+																
+																
+																	<a href="#" onclick="javascript:common.report('false','bsk9****', 'msosuosvzJy/2Tx72sRIQdduAIgfv+yqrE6754lJdTw=', '판타지영화는 반지의 제왕 전과 후로 나뉜다 ', '8184095', 'point_after', true);return false;" class="go_report2"><em>신고</em></a><!-- N=a:mra.report -->
+																
+																	
+														</dd>
+													</dl>
+												</div>
+												<div class="btn_area">
+													<a class="_sympathyButton" href="#"><span class="ico_up"></span><span class="blind">공감</span><strong class="sympathy_8184095">660</strong></a>
+													<a class="_notSympathyButton" href="#"><span class="ico_down"></span><span class="blind">비공감</span><strong class="notSympathy_8184095">22</strong></a>
+												</div>
+											</li>
+										
+											
+											
+											<li>
+												<div class="star_score">
+													
+														<span class="st_off">
+															<span class="st_on" style="width:100.0%"></span>
+														</span>
+														<em>10</em>
+													
+												</div>
+												<div class="score_reple">
+													<p>
+														<!-- 스포일러 컨텐츠로 처리되는지 여부 -->
+														
+														
+														
+														
+															
+															
+																초등학교2학년때 처음으로 이 영화를 접해고 고3이 된 지금까지 과장이 아니라 정말로 100번넘게 본 영화다.(물론3편다 합쳐서) 앞으로도 얼마든지 더 볼 생각이며 이 영화가 없었으면 난 뭘하면서 살았을까 의문이 들정도로 내인생에 최고의 작품 
+															
+														
+														
+													</p>
+													<dl>
+														<dt>
+															<em>
+																<a href="#" onclick="javascript:showPointListByNid(7658137);return false;">
+																	<span>kimK(jose****)</span>
+																</a>
+															</em>
+															<em>2013.06.20 02:08</em>
+														</dt>
+														<dd>
+															
+																
+																
+																	<a href="#" onclick="javascript:common.report('false','jose****', 'oukOOiwr2O8AM/wXYX6jNaUz7vbLRplIpjubDX8s38g=', '초등학교2학년때 처음으로 이 영화를 접해고 고3이 된 지금까지 과장이 아니라 정말로 100번넘게 본 영화다.(물론3편다 합쳐서) 앞으로도 얼마든지 더 볼 생각이며 이 영화가 없었으면 난 뭘하면서 살았을까 의문이 들정도로 내인생에 최고의 작품 ', '7658137', 'point_after', true);return false;" class="go_report2"><em>신고</em></a><!-- N=a:mra.report -->
+																
+																	
+														</dd>
+													</dl>
+												</div>
+												<div class="btn_area">
+													<a class="_sympathyButton" href="#"><span class="ico_up"></span><span class="blind">공감</span><strong class="sympathy_7658137">768</strong></a>
+													<a class="_notSympathyButton" href="#"><span class="ico_down"></span><span class="blind">비공감</span><strong class="notSympathy_7658137">140</strong></a>
+												</div>
+											</li>
+										
+											
+											
+											<li class="last">
+												<div class="star_score">
+													
+														<span class="st_off">
+															<span class="st_on" style="width:100.0%"></span>
+														</span>
+														<em>10</em>
+													
+												</div>
+												<div class="score_reple">
+													<p>
+														<!-- 스포일러 컨텐츠로 처리되는지 여부 -->
+														
+														
+														
+														
+															
+															
+																다시봐도 역시 명작이구나 
+															
+														
+														
+													</p>
+													<dl>
+														<dt>
+															<em>
+																<a href="#" onclick="javascript:showPointListByNid(7645387);return false;">
+																	<span>최완욱(azxf****)</span>
+																</a>
+															</em>
+															<em>2013.06.16 00:42</em>
+														</dt>
+														<dd>
+															
+																
+																
+																	<a href="#" onclick="javascript:common.report('false','azxf****', 'qyDs6fOetFM1rrNlep05yF37+BFYaMQcCysvBB9q9Ac=', '다시봐도 역시 명작이구나 ', '7645387', 'point_after', true);return false;" class="go_report2"><em>신고</em></a><!-- N=a:mra.report -->
+																
+																	
+														</dd>
+													</dl>
+												</div>
+												<div class="btn_area">
+													<a class="_sympathyButton" href="#"><span class="ico_up"></span><span class="blind">공감</span><strong class="sympathy_7645387">651</strong></a>
+													<a class="_notSympathyButton" href="#"><span class="ico_down"></span><span class="blind">비공감</span><strong class="notSympathy_7645387">32</strong></a>
+												</div>
+											</li>
+										
+									
+									
+								</ul>
+							</div>
+				    
+				   
+				</div>
+			</div>
+		</div>
+
+</div>
+
+</body>
+</html>

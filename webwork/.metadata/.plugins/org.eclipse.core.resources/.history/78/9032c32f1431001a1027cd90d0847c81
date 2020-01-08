@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<script type="text/javascript">
+			function calcNum(){
+				num1 = 100;
+				num2 = 1000;
+				result = num1 + num2;
+				return result;
+			}
+			
+		</script>
+</head>
+<body>
+	<script type="text/javascript">
+	calcNum();
+	alert("입력한 숫자의 합은=>"+result);
+	</script>
+	<input type="button" value="구구단 출력하기" onclick="printGuGu(dan)">
+
+</body>
+</html>

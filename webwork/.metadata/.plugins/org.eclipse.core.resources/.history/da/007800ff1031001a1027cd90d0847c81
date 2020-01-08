@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<script type="text/javascript">
+		function printGuGu(dan){
+			dan = parseInt(window.prompt("숫자 num1값을 입력하세요"));
+			document.write("<teble border='1'>")
+		}
+		function calcNum(num1,num2){
+			result = num1 + num2;
+			return result;
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="구구단 출력하기" onclick="printGuGu()">
+	<script type="text/javascript">
+		result = calcNum(num1,num2);
+		alert("입력한 숫자의 합은=>"+result);
+	</script>
+</body>
+</html>

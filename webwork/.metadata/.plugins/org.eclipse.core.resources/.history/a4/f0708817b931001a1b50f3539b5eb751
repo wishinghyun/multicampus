@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+	today = new Date();
+	day = today.getDay();
+	weekday = "";
+		switch(day)
+		{
+		case 0:
+			weekday="1.jpg";
+			break;
+		case 1:
+			weekday="2.jpg";
+			break;
+		case 2:
+			weekday="3.jpg";
+			break;
+		case 3:
+			weekday="4.jpg";
+			break;
+		case 4:
+			weekday="5.jpg";
+			break;
+		case 5:
+			weekday="6.jpg";
+			break;
+		case 6:
+			weekday="7.jpg";
+			break;
+		}
+		document.write("<img src='../images/jang"+weekday+"'/>");
+		hour = today.getHours();
+		color = "";
+		if(hour<12){
+			document.bgColor = "lime";
+		}else{
+			document.bgColor = "red";
+		}
+		
+	</script>
+	
+</body>
+</html>

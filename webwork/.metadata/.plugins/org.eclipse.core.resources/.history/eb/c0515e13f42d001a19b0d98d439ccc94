@@ -1,0 +1,16 @@
+@charset "EUC-KR";
+body{
+	font-size: 9pt;
+}
+h1{
+	color: #31868b;
+}
+#garden{
+	background-image: url("../images/background.gif");
+	background-repeat: no-repeat;
+	background-color: #a7cece;
+	border: solid shite 1px;
+	border-left-width: 30px;
+	margin: 20px;
+	padding: 20px;
+}
