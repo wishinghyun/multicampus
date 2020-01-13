@@ -66,10 +66,30 @@
 	<a href="#" target="_self">하이퍼링크2</a>
 	<a href="#" target="_blank">하이퍼링크3</a>
 	<a href="#" target="_self">하이퍼링크4</a>
-	<script type="text/javascript" src="../common/js/jquery-1.12.3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			
+			$("#ultag").on("click", function() {
+				$("ul li:first").css("color","red")
+			})
+			$("#ulAll").on("click", function() {
+				$("ul:first-child").css("color","blue")
+			})
+			$("#href").on("click", function() { //[ ]는 href라는 속성을 갖고 있는 모든 구성요소에 적용
+				$("[href]").css("color","skyblue")
+			})
+			$("#attrVal").on("click", function() { //target속성의 값은 ''로 표시, a는 태그 앞에 표시
+				$("a[target!='_blank']").css("color","pink")
+			})
+			$("#inputbutton").on("click", function() { //모든 버튼에 적용
+				$(":button").css("color","green")
+			})
+			$("#treven").on("click", function() { //tr은 index 0부터 시작
+				$("tr:even").css("background-color","blue")
+			})
+			$("#trodd").on("click", function() { 
+				$("tr:odd").css("background-color","yellow")
+			})
 		});
 	</script>
 </body>
