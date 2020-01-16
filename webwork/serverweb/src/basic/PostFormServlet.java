@@ -27,7 +27,7 @@ public class PostFormServlet extends HttpServlet {
 		System.out.println("JOB"+job);
 		System.out.println("Favorites:");
 		for (String string : favo) {
-			System.out.println(string);
+			System.out.print(string);
 		}		
 	}
 }
