@@ -14,7 +14,7 @@ Tiles프레임워크를 이용해서 화면구성하기
             내부에서 tiles 설정 파일에 등록한 내용과 연결하여 실행하는 작업을 처리하기 위해 tiles에서 제공하는 
             태그를 써서 작업해야 한다
             
-5. 스프링 내부에서 실행될때 DispatcherServlet이 뷰 정보를 ViewResolver에게 전달하
+5. 스프링 내부에서 실행될때 DispatcherServlet이 뷰 정보를 ViewResolver에게 전달하면
    ViewResolver가 tiles 프레임워크를 활용해서 뷰를 만들 수 있도록 spring설정파일에 등록
      - tiles설정 파일이 어떤 파일인지 등록
      - 만들어야 하는 view가 tiles뷰 임을 등록
