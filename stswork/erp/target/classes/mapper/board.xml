@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="multi.erp.board">
+	<select id="listall" resultType="board">
+		select * from board
+	</select>
+	<!-- parameterType은 DTO로 insert할때 dto의 타입을 명시  -->
+	<!-- mybatis에서는 #,$가 ?랑 같음
+		 id는 BoardDAOImpl의 메소드명과 동일
+	 -->
+	<insert id="insert" parameterType="board">
+		insert into board values(board_seq.nextval,'jang',#{title},
+								#{content},sysdate,#{category},0)
+	</insert>
+</mapper>
