@@ -15,7 +15,21 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-
+	//자바스크립트에서 자바에서 발생한 데이터를 사용
+	//${category} => request.getAttribute("category") 하는거랑 같음
+	category = "${category}" //컨트롤러 요청하고 response될때 값을 받아서 셋팅
+	<%-- category = "<%= request.getAttribute("category")%>" 이렇게 써되 됨--%>
+	$(document).ready(function() {
+		//최초 실행인 경우 category값이 없으니
+		if(category==""){
+			category="all"
+		}
+		$("#category").val(category).attr("selected","selected")
+		$("#category").change(function() {
+			location.href="/erp/board/list.do?category="
+								+encodeURI($(this).val())
+		})
+	})
 </script>
 </head>
 <body>
