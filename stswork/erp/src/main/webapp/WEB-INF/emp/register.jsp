@@ -8,11 +8,30 @@
 <meta charset="UTF-8">
 	<title>Insert title here</title>
 	<script type="text/javascript">
-	
+		$(document).ready(function() {
+			$("#id").on("keyup",function(){
+				/* 자바스크립트에서 동기 방식으로 요청할 때
+				location.href = "/erp/emp/idCheck.do?id="+$("#id").val(); */
+				//JQuery에서 Ajax로 요청하기 - get방식
+				//url => 요첨path
+				//data => 파라미터 : json형식
+				//				  json형식 {"name":"value" ; "name":"value"...}
+				//success : Ajax요청해서 성공적으로 데이터를 받아왔을때 처리할 내용을 함수로 표현
+				//dataType : Ajax요청 후 응답 받을 데이터의 형식
+				$.get("/erp/emp/idCheck.do",
+						{"id":$("#id").val()},
+						function(data) { //응답데이터
+							//ajax로 요청해서 응답받은 데이터를 <span>태그 내부에 출력
+							$("#checkVal").text(data);
+						},
+						"text")
+				
+			})
+		})
 	</script>
  </head>
-	
 <body>
+	<%= request.getAttribute("info") %>
 	<div class="container-fluid">
 			
 			<form class="form-horizontal" 

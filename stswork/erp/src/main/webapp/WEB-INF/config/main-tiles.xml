@@ -17,11 +17,16 @@
 	</definition>
 	
 	
-	<!-- 실제 사용될 뷰를 정의 -->
-	<definition name="index" extends="indexTemplate">
+	<!-- 뷰 -->
+	<definition name="index" extends="indexTemplate"></definition>
+	<definition name="login" extends="mainTemplate"></definition>
+	<definition name="login/ok" extends="mainTemplate">
+		<put-attribute name="menu" value="/WEB-INF/menu/insa_menu.jsp"/>
+		<put-attribute name="content" value="/WEB-INF/emp/mypage.jsp"/>
 	</definition>
-	
-	<definition name="login" extends="mainTemplate">
+	<definition name="emp/insert" extends="mainTemplate">
+		<put-attribute name="menu" value="/WEB-INF/menu/insa_menu.jsp"/>
+		<put-attribute name="content" value="/WEB-INF/emp/register.jsp"/>
 	</definition>
 	
 </tiles-definitions>
